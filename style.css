@@ -7,16 +7,14 @@
   font-family: "Red Hat Display";
   font-size: 62.5%;
 }
-body{
-  min-height: 100vh;
-}
+
 p {
   font-size: 1.6rem;
   color: hsl(224, 23%, 55%);
 }
 .container {
   background-color: hsl(225, 100%, 94%);
-  max-height: 120vh;
+  min-height: 100vh;
   max-width: 100%;
   padding: 6rem 2rem 1rem 2rem;
 }
