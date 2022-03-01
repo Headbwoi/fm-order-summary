@@ -1,0 +1,109 @@
+@import url("https://fonts.google.com/specimen/Red+Hat+Display");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 500, 700, 900;
+  font-family: "Red Hat Display";
+  font-size: 62.5%;
+}
+p {
+  font-size: 1.6rem;
+  color: hsl(224, 23%, 55%);
+}
+.container {
+  background-color: hsl(225, 100%, 94%);
+  max-height: 120vh;
+  max-width: 100%;
+  padding: 6rem 2rem 1rem 2rem;
+}
+.container .row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+  background:  hsl(225, 100%, 98%);
+  border-radius: 15px;
+}
+.row img{
+  width: 100%;
+  height: auto;
+  border-radius: 15px 15px 0 0;
+}
+.row .head h1{
+  font-size: 2rem;
+  text-align: center;
+  padding: 3rem 1rem 1rem 1rem;
+}
+.row .head p{
+  text-align: center;
+  padding: 1rem 3rem;
+  line-height: 2.3rem;
+}
+.body{
+  background: #EFF0FC;
+  display: block;
+  width: 90%;
+  height: 70px;
+  margin: 2rem auto;
+  border-radius: 15px;
+}
+.body img{
+  width: 15%;
+  float: left;
+  margin: 1.2rem 5rem 0.7rem 1rem;
+}
+.body h4{
+  font-size: 1.5rem;
+  padding: 1.4rem 0 0.4rem 0;
+}
+.body p{
+  font-size: 1.5rem;
+}
+.body a{
+  float: right;
+  font-size: 1.4rem;
+  margin: -2.5rem 2rem;
+  color: hsl(245, 75%, 52%);
+}
+.body a:hover{
+  text-decoration: none;
+}
+.tail {
+  margin: 2rem;
+}
+.tail a{
+  text-decoration: none;
+  background: hsl(245, 75%, 52%);
+  color: #EFF0FC;
+  padding: 1.6rem 5.5rem;
+  margin: 0 auto;
+  font-size: 1.6rem;
+  border-radius: 15px;
+  box-shadow: 10px 10px 40px lightgray;
+}
+.tail a:hover{
+  background: hsl(254, 50%, 45%);
+}
+.tail p{
+  margin: 4rem 1rem 1rem 1rem;
+  text-align: center;
+}
+.tail p:hover{
+  color: black;
+  cursor: pointer;
+}
+.attribution {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  font-size: 1.5rem;
+}
+.attribution a:hover{
+  text-decoration: none;
+}
