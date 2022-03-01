@@ -7,6 +7,8 @@
   font-family: "Red Hat Display";
   font-size: 62.5%;
 }
+body{
+  min-height: 100vh;
 p {
   font-size: 1.6rem;
   color: hsl(224, 23%, 55%);
