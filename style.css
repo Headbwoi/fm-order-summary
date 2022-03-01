@@ -12,13 +12,13 @@ p {
   font-size: 1.6rem;
   color: hsl(224, 23%, 55%);
 }
-.container {
+main .container {
   background-color: hsl(225, 100%, 94%);
   min-height: 100vh;
   max-width: 100%;
   padding: 6rem 2rem 1rem 2rem;
 }
-.container .row{
+main .container .row{
   display: flex;
   justify-content: center;
   align-items: center;
