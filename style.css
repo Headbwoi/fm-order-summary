@@ -9,6 +9,7 @@
 }
 body{
   min-height: 100vh;
+}
 p {
   font-size: 1.6rem;
   color: hsl(224, 23%, 55%);
